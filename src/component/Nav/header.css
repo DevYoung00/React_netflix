@@ -1,0 +1,85 @@
+.header{
+  width:100%;
+  color:white;
+  font-size: 14px;
+  position: fixed;
+  top:0;
+  z-index:999;
+
+}
+.header .gnb{
+    height: 60px;
+    padding: 0px 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+ .gnb .left{
+      display: flex;
+      align-items: center;}
+
+.left img{
+        height: 40px;
+        margin-right: 40px;
+        padding:10px;
+      }
+.left span{
+        margin-right:20px ;
+        cursor: pointer;
+      }
+.gnb .right{
+      display: flex;
+      align-items: center;
+    }
+
+.right .icon{
+        margin: 0px 15px;
+        cursor: pointer;
+      }
+
+.right span{
+        margin-right: 20px;
+ }
+.right img{
+        width:40px;
+      height: 40px;
+      border-radius: 5px;
+      object-fit: cover;
+      cursor: pointer;
+      }
+.gnb .right .profile{
+      position: relative;
+      background-color:inherit;
+      overflow:visible;
+      }
+ .profile .profile_setting{
+         display: none;
+          background-color: var(--main-color);
+        }
+.profile:hover .profile_setting {
+  text-align:justify;
+            display:flex;
+            width:100px;
+            flex-direction: column;
+            position:absolute;
+
+      
+}
+.profile_setting .other_profile{
+            list-style-type: none;
+            margin:0;
+            padding:5px;
+            cursor: pointer;
+ }
+ .profile_setting .other_profile .img{
+            width:30px;
+            height:30px;
+            border-radius: 5px;}
+ .profile_setting  span{
+          padding:5px;
+          cursor: pointer;
+        }
+
+
+        
+        
