@@ -1,6 +1,7 @@
 .recommend{
   height: 85vh;
-  position: relative;}
+  position: relative;
+margin-bottom: 5%;}
 
   .catagory{
     position: absolute;
@@ -22,10 +23,12 @@
     }
   
  .recommend img{
+   height: 110%;
     width: 100%;
-    height: 100%;}
-   
+   }
+
     .recommend .info{
+
     width:35%;
     position: absolute;
     left:150px;
@@ -35,7 +38,9 @@
     flex-direction: column;}
 
     .recommend .info  img{
+ 
       width:400px;
+      height: 130px;
     }
     .recommend .info    .detail{
       margin:20px 0px;

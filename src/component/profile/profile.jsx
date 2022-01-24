@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./profile.css"
 
 
@@ -7,7 +8,8 @@ const profile = () => {
   return (
     <div className="profile">
     <div className="profile_header">
-    <img src="images/logo.png"alt="netflix" />
+    <Link to="/Home"> <img src="images/logo.png"
+          alt="netflix" /></Link>
     </div>
     <p>프로필 관리</p>
     <div className="choose_profile">
@@ -45,7 +47,7 @@ const profile = () => {
       </ul>
     </div>
     <div className="setting_btn">
-    <button><p>완료</p></button>
+    <Link to="/Home"><button><p>완료</p></button></Link>
     </div>
     
   </div>

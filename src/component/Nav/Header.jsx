@@ -4,7 +4,7 @@ import {  Search , Notifications ,ArrowDropDown } from "@material-ui/icons";
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-
+  
   const [ScrollY,setScrollY] = useState(false);
   function handleScroll() {
     if(window.pageYOffset ===0){
@@ -30,8 +30,10 @@ const Header = () => {
     >
       <div className="gnb">
         <div className="left">
-          <img src="images/logo.png"
-          alt="netflix" />
+   
+          <Link to="/Home"> <img src="images/logo.png"
+          alt="netflix" /></Link>
+         
         <span>홈</span>
         <span>시리즈</span>
         <span>영화</span>
@@ -57,11 +59,12 @@ const Header = () => {
           <hr></hr>
             <span>계정</span>
             <span>고객센터</span>
-            <span>로그아웃</span>
+            <Link to="/info_page" style={{ color: 'inherit', textDecoration: 'inherit'}}><span>로그아웃</span></Link>
           </div>
           </div>
             </div>
           </div>
+          
           </div>
   )
 }

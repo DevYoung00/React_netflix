@@ -1,59 +1,9 @@
 .list{
-  width:100%;
-  margin-top:10px;
+  margin-left:30px;
 
 }
-.listTitle{
-  color:white;
-  font-size:20px;
-  font-weight: 500;
-  margin-left:50px;
-}
-.wrapper .slider {
-  width:50px;
-  height: 100%;
-  background-color: black;
-  color:white;
-  position: absolute;
-  z-index:999;
-}
-/* 자식에서 absolute 쓰면 부모 relative */
-.wrapper{
-  position: relative; 
-}
-.wrapper .slider-left{
-  width:50px;
-  height: 100%;
-  background-color: black;
-  opacity:0.5;
-  color:white;
-  position: absolute;
-  z-index:99;
-  cursor: pointer;
-  left:0;
-}
-.wrapper .slider-right{
-  width:50px;
-  height: 100%;
-  background-color: black;
-  opacity:0.5;
-  color:white;
-  position: absolute;
-  z-index:99;
-  /* 세로중앙 */
-  top:0;
-  bottom:0;
-  margin:auto;
-    /* 세로중앙 */
-  cursor: pointer;
-  right:0;
-}
 
-.wrapper .container {
-    margin-left:50px;
-    display: flex;
-    width:max-content;
-    margin-top:10px;
-    transform: translateX(0px);
+.list h3{
+  padding-top: 15px;
+  color:white;
 }
-

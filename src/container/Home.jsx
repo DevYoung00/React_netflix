@@ -11,10 +11,7 @@ const Home = () => {
     <div className="home">
       <Header/>
       <Recommend />
-      <List/>
-      <List/>
-      <List/>
-      <List/>
+     
       <List/>
       
     </div>

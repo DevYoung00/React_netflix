@@ -5,7 +5,6 @@
   position: fixed;
   top:0;
   z-index:999;
-
 }
 .header .gnb{
     height: 60px;
@@ -79,6 +78,14 @@
           padding:5px;
           cursor: pointer;
         }
+
+.profile_setting span:hover{
+  text-decoration: underline
+}
+
+.profile_setting li:hover{
+  text-decoration: underline
+}
 
 
         
